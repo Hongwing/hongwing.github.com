@@ -8,8 +8,8 @@
 </description>
     <link>http://github.com/Hongwing/</link>
     <atom:link href="http://github.com/Hongwing/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 May 2016 23:08:53 +0800</pubDate>
-    <lastBuildDate>Thu, 12 May 2016 23:08:53 +0800</lastBuildDate>
+    <pubDate>Fri, 13 May 2016 14:24:56 +0800</pubDate>
+    <lastBuildDate>Fri, 13 May 2016 14:24:56 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
@@ -17,9 +17,8 @@
         <description>&lt;h1 id=&quot;section&quot;&gt;作为一个刚刚接触编程的新人，不禁会问到：&lt;/h1&gt;
 &lt;blockquote&gt;
   &lt;h4 id=&quot;section-1&quot;&gt;我应该学习哪一门编程语言呢？&lt;/h4&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/IMG_0883.jpg&quot; alt=&quot;Me&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/IMG_0883.jpg&quot; alt=&quot;Me&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;your-choices&quot;&gt;&lt;em&gt;Your choices&lt;/em&gt;&lt;/h1&gt;
 &lt;hr /&gt;
@@ -65,8 +64,7 @@
 
 &lt;blockquote&gt;
   &lt;h2 id=&quot;objective-c&quot;&gt;Objective-C&lt;/h2&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/IMG_0882.jpg&quot; alt=&quot;Python&quot; /&gt;
-—&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;/assets/IMG_0882.jpg&quot; alt=&quot;Python&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 id=&quot;the-most-important-point&quot;&gt;&lt;em&gt;The Most important Point&lt;/em&gt;&lt;/h1&gt;
