@@ -20,3 +20,5 @@ twitter_username: hongwing
 github_username:  Hongwing
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-minimal
