@@ -1,0 +1,52 @@
+body {
+  background-color: #eee;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.middle {
+  background-color: #eee;
+  margin: 0;
+  padding: 10px 10px 100px 10px;
+}
+
+.square {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+.me {
+  margin-top: 15px;
+}
+
+.bg {
+  //background-image: url('docs/assets/img/example-image.jpg');
+  background-image: url('docs/assets/img/tableshow.jpg');
+  height: auto;
+}
+.bg-next {
+  background-image: url('docs/assets/img/girl.jpg');
+  background-size: 80%;
+  height: 500px;
+}
+#headline {
+  padding-top: 120px;
+  text-align: center;
+}
+.set-dark {
+  background-color: black;
+  opacity: 0.81;
+  height: 100%;
+  padding-top: 20px;
+}
+.me-nav {
+  background-color: purple  ;
+}
+
+.mrl {
+  background-color: #777;
+}

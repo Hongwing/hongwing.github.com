@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hongwing & Mr.AcArat
+email: acarat@qq.com
+author: Hongwing
+aubout: Hongwing is a author who wants to change his life.
+description: > # this means to ignore newlines until "baseurl:"
+  This site is my first site which is created by myself . I've got this idea about how to
+   create a blog for a long time . Todat I make it , actually, I just create a prototye even like nothing.
+    I will keep it up !
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://github.com/Hongwing" # the base hostname & protocol for your site
+twitter_username: hongwing
+github_username:  Hongwing
+# Build settings
+markdown: kramdown
+
+theme: jekyll-theme-time-machine
