@@ -1,202 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hongwing CSS Think</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="dist/css/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/css/flat-ui.css">
-    <link rel="stylesheet" href="dist/css/flat-ui.min.css">
-    <link rel="stylesheet" href="docs/assets//css/demo.css">
-    <link rel="stylesheet" href="zhihu.css">
+<div class="home">
 
-  </head>
-  <body>
-    <div class="container main">
+  <h1 class="page-heading">Posts</h1>
 
-      <h1>Hongwing & Mr.AcArat</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      <div class="row demo-row img-rounded bg">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-        <div class="col-xs-12 set-dark img-rounded">
-          <h1 style="color: purple">Table Show</h1>
-          <nav class="navbar navbar-inverse navbar-embossed me-nav" role="navigation">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                <span class="sr-only">Toggle navigation</span>
-              </button>
-              <a class="navbar-brand" href="#">Flat UI</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-01">
-              <ul class="nav navbar-nav navbar-left">
-                <li><a href="#fakelink">Menu Item<span class="navbar-unread">1</span></a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
-                  <span class="dropdown-arrow"></span>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
-                <li><a href="#fakelink">About Us</a></li>
-               </ul>
-               <form class="navbar-form navbar-right" action="#" role="search">
-                <div class="form-group">
-                  <div class="input-group">
-                    <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn"><span class="fui-search"></span></button>
-                    </span>
-                  </div>
-                </div>
-              </form>
-            </div><!-- /.navbar-collapse -->
-          </nav><!-- /navbar -->
-        </div>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
-      </div> <!-- end of square -->
-
-
-      <div class="row demo-row img-rounded bg-next">
-
-        <div class="col-xs-12 set-dark img-rounded">
-          <div id="headline">
-          <h1>This is about what we really take from the damn world.</h1>
-          </div>
-        </div>
-
-      </div> <!-- end of square -->
-
-
-      <div class="row demo-row square img-rounded">
-
-
-      <div class="col-xs-4 ">
-        <div class="middle">
-          <a href="#" class="btn btn-block btn-lg btn-primary">First-Part</a>
-          <p class="lead me">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-      </div>
-      <div class="col-xs-4 ">
-        <div class="middle">
-          <a href="#" class="btn btn-block btn-lg btn-warning">Second-Part</a>
-          <blockquote class="me">
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus.</p>
-            <small>Steve Jobs, CEO Apple</small>
-          </blockquote>
-        </div>
-      </div>
-      <div class="col-xs-4 ">
-        <div class="middle">
-          <a href="#" class="btn btn-block btn-lg btn-danger">Third-Part</a>
-          <p class="me"><small>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</small></p>
-        </div>
-      </div>
-
-
-    </div> <!-- end of square -->
-
-
-    <h1 class="demo-panel-title">Hongwing</h1>
-    <div class="row demo-row square img-rounded">
-
-
-    <div class="col-xs-4 ">
-      <div class="middle">
-        <a href="#" class="btn btn-block btn-lg btn-success">First-Part</a>
-        <img src="docs/assets/img/example-image.jpg" alt="image" class="img-rounded img-responsive me">
-        <p class="img-comment">
-          <strong>Note:</strong>
-          gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </p>
-      </div>
-    </div>
-    <div class="col-xs-4 ">
-      <div class="middle">
-        <a href="#" class="btn btn-block btn-lg btn-inverse">Second-Part</a>
-        <div class="btn-toolbar me">
-          <div class="btn-group">
-            <a class="btn btn-primary" href="#fakelink"><span class="fui-time"></span></a>
-            <a class="btn btn-primary" href="#fakelink"><span class="fui-photo"></span></a>
-            <a class="btn btn-primary active" href="#fakelink"><span class="fui-heart"></span></a>
-            <a class="btn btn-primary" href="#fakelink"><span class="fui-eye"></span></a>
-          </div>
-        </div> <!-- /toolbar -->
-      </div>
-    </div>
-    <div class="col-xs-4 ">
-      <div class="middle">
-        <a href="#" class="btn btn-block btn-lg btn-info">Third-Part</a>
-        <div class="share mrl me">
-                   <ul>
-                     <li>
-                       <label class="share-label" for="share-toggle2">Facebook</label>
-                       <input type="checkbox" data-toggle="switch" />
-                     </li>
-                     <li>
-                       <label class="share-label" for="share-toggle4">Twitter</label>
-                       <input type="checkbox" checked="" data-toggle="switch" />
-                     </li>
-                     <li>
-                       <label class="share-label" for="share-toggle6">Pinterest</label>
-                       <input type="checkbox" data-toggle="switch" />
-                     </li>
-                   </ul>
-                   <a href="#" class="btn btn-primary btn-block btn-large">Share</a>
-                 </div> <!-- /share -->
-      </div>
-    </div>
-
-
-  </div> <!-- end of square -->
-
-
-  <h1 class="demo-panel-title">Display Rock</h1>
-  <div class="row demo-row square img-rounded">
-    <div class="col-xs-12">
-    <video class="video-js" preload="auto" poster="docs/assets/img/video/poster.jpg" data-setup="{}">
-      <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4">
-      <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm">
-    </video>
-    </div>
-  <div class="col-xs-4 ">
-    <div class="middle">
-      <a href="#" class="btn btn-block btn-lg btn-primary">First-Part</a>
-    </div>
-    <div class="tile">
-        <img src="img/icons/svg/compas.svg" alt="Compas" class="tile-image big-illustration">
-        <h3 class="tile-title">Web Oriented</h3>
-        <p>100% convertable to HTML/CSS layout.</p>
-    </div>
-  </div>
-  <div class="col-xs-4 ">
-    <div class="middle">
-      <a href="#" class="btn btn-block btn-lg btn-warning">Second-Part</a>
-    </div>
-    <div class="tile">
-      <img src="img/icons/svg/loop.svg" alt="Infinity-Loop" class="tile-image">
-      <h3 class="tile-title">Easy to Customize</h3>
-      <p>Vector-based shapes and minimum of layer styles.</p>
-    </div>
-  </div>
-  <div class="col-xs-4 ">
-    <div class="middle">
-      <a href="#" class="btn btn-block btn-lg btn-danger">Third-Part</a>
-    </div>
-    <div class="tile">
-      <img src="img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
-      <h3 class="tile-title">Color Swatches</h3>
-      <p>Easy to add or change elements. </p>
-    </div>
-  </div>
-
-
-</div> <!-- end of square -->
-
-    </div>
-
-  </body>
-</html>
+</div>
