@@ -1,23 +1,262 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<div class="home">
+<head>
 
-  <h1 class="page-heading">Posts</h1>
+        <!-- Basics -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>.::> Henry HE <::.</title>
+        <link name="author" href="humans.txt" />
+        <meta name="description" content="John Deo, UI / UX / Frontend">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="img/favicons/favicon.ico">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <!-- Mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+        <!-- Fonts -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>
 
-</div>
+    </head>
+    <body>   
+
+        <div class="wrapper">
+
+            <header>
+                <a class="menu-icon jiji">
+                    <span></span>
+                </a>
+                <nav class="menu visuallyhidden">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#work">My Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="home" class="row">
+                <div class="overlay">
+                    <div class="col home-title jiji">
+                        <h1>Henry HE</h1>
+                        <h2>UI / UX / Frontend</h2>
+                        <a href="https://github.com/Hongwing" target="_blank" class="but">Check On Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="row">
+                <div class="page about-content">
+                    <div class="col about-title">
+                        <h3
+                            data-100="-webkit-transform: translateX(100px); opacity:0;"
+                            data-500="-webkit-transform: translateX(0px); opacity:1;"
+                        >About me</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col about-description">
+                        <p
+                            data-100="opacity:0;"
+                            data-500="opacity:1;"
+                        >Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                        <a href="#" class="but">Get in touch</a>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                </div>
+            </section>
+
+            <section id="services" class="row">
+                <div class="services-content page">
+                    <div class="col services-design"
+                        data-600="-webkit-transform: translateY(10px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-design"></span>
+                        <ul>
+                            <li>UI / UX Design</li>
+                            <li>User Interface Design</li>
+                            <li>Interaction Design</li>
+                            <li>User Experience Thinking</li>
+                            <li>Prototyping</li>
+                            <li>Wireframing</li>
+                        </ul>
+                    </div>
+                    <div class="col services-frontend"
+                        data-600="-webkit-transform: translateY(50px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-computer"></span>
+                        <ul>
+                            <li>Frontend Development</li>
+                            <li>HTML5 / CSS3</li>
+                            <li>jQuery & JavaScript libraries</li>
+                            <li>Responsive Design</li>
+                            <li>Sass</li>
+                            <li>Git / SVN</li>
+                        </ul>
+                    </div>
+                    <div class="col services-team"
+                        data-600="-webkit-transform: translateY(100px); opacity:0;"
+                        data-800="-webkit-transform: translateY(0px); opacity:1;"
+                    >
+                        <span class="icon-music"></span>
+                        <ul>
+                            <li>Team Building</li>
+                            <li>Smiling</li>
+                            <li>Communication</li>
+                            <li>Team working</li>
+                            <li>Sharing my music</li>
+                            <li>...and more!</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <hr><div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+
+            <section id="work" class="row">
+                <div class="work-content page">
+                    <div class="col work-title">
+                        <h3
+                            data-900="-webkit-transform: translateX(-100px); opacity:0;"
+                            data-1300="-webkit-transform: translateX(0px); opacity:1;"
+                        >My latest work</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col work-description">
+                        <p
+                            data-900="opacity:0;"
+                            data-1300="opacity:1;"
+                        >A selection of recent projects I've been working on: landing pages, websites, email marketing...</p>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                </div>
+                <div class="work-examples page">
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1600="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1400="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                               <h4>Design</h4>
+                               <a href="#" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1500="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col work-item"
+                        data-1300="opacity:0;"
+                        data-1600="opacity:1;"
+                    >
+                        <img src="img/works/1.jpg" alt="">
+                        <div class="work-item-inside">
+                            <div class="work-item-inside-content">
+                                <h4>Design</h4>
+                                <a href="#" class="but">Click here</a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="contact" class="row">
+                <div class="contact-content page">
+                    <div class="col contact-title">
+                        <h3
+                            data-100="-webkit-transform: translateX(100px); opacity:0;"
+                            data-500="-webkit-transform: translateX(0px); opacity:1;"
+                        >Get in touch</h3>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col contact-description">
+                        <a href="#" class="but">mracarat@gmail.com</a>
+                    </div>
+                    <div class="col empty">&nbsp;</div>
+                    <div class="col span_12 social">
+                        <a class="icon-twitter" href="#" target="_blank"></a>
+                        <a class="icon-github" href="#" target="_blank"></a>
+                        <a class="icon-instagram" href="#" target="_blank"></a>
+                        <a class="icon-linkedin" href="#" target="_blank"></a>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer" class="row">
+                <div class="footer-content page">
+                    <div class="col f1">
+                        <p>© 2017 By Henry HE.</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <div class="loader"></div>
+        
+        <!-- JavaScript -->
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
