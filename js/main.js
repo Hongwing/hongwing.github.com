@@ -4,6 +4,13 @@ jQuery(document).ready(function($) {
 	// var windowHeight = $(window).height();
 	// var windowWidth = $(window).width();
 
+	// home image
+	var imgID = Math.floor(Math.random()*6+1); // 1~6 random number
+	var imgStr = 'header-'+imgID+'.jpg';
+	$("#home").css("background-image", 'url(../img/'+imgStr);
+	// home image
+
+
 	// Nav
 	$('a[href*=#]:not([href=#])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
