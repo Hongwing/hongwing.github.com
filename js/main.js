@@ -5,9 +5,9 @@ jQuery(document).ready(function($) {
 	// var windowWidth = $(window).width();
 
 	// home image
-	var imgID = Math.floor(Math.random()*6+1); // 1~6 random number
-	var imgStr = 'header-'+imgID+'.jpg';
-	$("#home").css("background-image", 'url(../img/'+imgStr);
+	var imgID = Math.floor(Math.random()*8+1); // 1~8 random number
+	var imgStr = 'header-'+imgID+'.png';
+	$("#home").css("background-image", 'url(../img/Wizard/'+imgStr);
 	// home image
 
 

@@ -542,6 +542,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .work-item img {
     width: auto;
+    border-radius: 20px;
     max-width: 100%;
     height: auto;
     border: 0;
@@ -550,6 +551,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .work-item-inside {
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.72);
     color: #fff;    
     display: block;
@@ -638,7 +640,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .icon-github:before {
-    content: "\e603";
+    content: "Github";
+}
+.icon-wechat:before {
+    content: "Wechat";
+}
+.icon-jj:before {
+    content: "JueJin"
+}
+.icon-yuque:before {
+    content: "YuQue"
 }
 
 /* ==========================================================================

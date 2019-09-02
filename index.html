@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
 
-        <!-- Basics -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>.::> Henry HE <::.</title>
-        <link name="author" href="humans.txt" />
+    <!-- Basics -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+        .::> Henry HE <::.
+    </title> <link name="author" href="HenryHe" />
         <meta name="description" content="Henry HE / Python / iOS / Frontend">
 
         <!-- Favicons -->
@@ -16,7 +19,7 @@
 
         <!-- Mobile -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        
+
         <!-- CSS -->
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -24,239 +27,220 @@
         <!-- Fonts -->
         <!--<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>-->
 
-    </head>
-    <body>   
+</head>
 
-        <div class="wrapper">
+<body>
 
-            <header>
-                <a class="menu-icon jiji">
-                    <span></span>
-                </a>
-                <nav class="menu visuallyhidden">
+    <div class="wrapper">
+
+        <header>
+            <a class="menu-icon jiji">
+                <span></span>
+            </a>
+            <nav class="menu visuallyhidden">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#work">My Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="row">
+            <div class="overlay">
+                <div class="col home-title jiji">
+                    <h1>Henry HE</h1>
+                    <h2>Python / iOS / Frontend</h2>
+                    <a href="https://github.com/Hongwing" target="_blank" class="but">Check On Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="row">
+            <div class="page about-content">
+                <div class="col about-title">
+                    <h3 data-100="-webkit-transform: translateX(100px); opacity:0;"
+                        data-500="-webkit-transform: translateX(0px); opacity:1;">About me</h3>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col about-description">
+                    <p data-100="opacity:0;" data-500="opacity:1;">
+                        <strong>Henry He</strong>
+                        <br/> A <i>Front-end Developer</i>, Good at making something funny with "tools".
+                        <br/> In this summer (2019), I'm honored to be a <i><strong>FE-Intern of DiDi</strong></i>.
+                        <br/> I understood the real process of development as a real FE Developer, and I experienced something beautiful with my
+                              group guys - Ray, Miao, Kim etc.
+                        <br/> All of this from one point is that <i><strong>I love programming</strong></i>, I believe that I'm goona stand on the new point in the future.
+                        <!-- <p>
+                            I, A fresh learner in the society, have gained the first job in my whole life with my own
+                            ability. Luckily, At the period of the colleage, I've mastered a lot of skills about programing.
+                            So I created the Website and iOS-Applicaiton on that time. Actually, My life changed and comes
+                            to a new phase from that time.
+                        </p> -->
+                    </p>
+                    <a href="mailto:mracarat@gmail.com" class="but">Get in touch</a>
+                </div>
+                <div class="col empty">&nbsp;</div>
+            </div>
+        </section>
+
+        <section id="services" class="row">
+            <div class="services-content page">
+                <div class="col services-design" data-600="-webkit-transform: translateY(10px); opacity:0;"
+                    data-800="-webkit-transform: translateY(0px); opacity:1;">
+                    <span class="icon-design"></span>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About me</a></li>
-                        <li><a href="#work">My Works</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li>Used Skills</li>
+                        <li><strong>iOS</strong> Applicaiton Dev</li>
+                        <li><strong>Python</strong> Web Dev</li>
+                        <li>Nginx / Node</li>
+                        <li>Prototyping</li>
+                        <li>Web Crawler</li>
                     </ul>
-                </nav>
-            </header>
-
-            <section id="home" class="row">
-                <div class="overlay">
-                    <div class="col home-title jiji">
-                        <h1>Henry HE</h1>
-                        <h2>Python / iOS / Frontend</h2>
-                        <a href="https://github.com/Hongwing" target="_blank" class="but">Check On Me</a>
-                    </div>
                 </div>
-            </section>
-
-            <section id="about" class="row">
-                <div class="page about-content">
-                    <div class="col about-title">
-                        <h3
-                            data-100="-webkit-transform: translateX(100px); opacity:0;"
-                            data-500="-webkit-transform: translateX(0px); opacity:1;"
-                        >About me</h3>
-                    </div>
-                    <div class="col empty">&nbsp;</div>
-                    <div class="col about-description">
-                        <p
-                            data-100="opacity:0;"
-                            data-500="opacity:1;"
-                        >I, A fresh learner in the society, have gained the first job in my whole life with my own ability. Luckily, At the period of the colleage, I've mastered a lot of skills about programing. So I created the Website and iOS-Applicaiton on that time. Actually, My life changed and comes to a new phase from that time.</p>
-                        <a href="mailto:mracarat@gmail.com" class="but">Get in touch</a>
-                    </div>
-                    <div class="col empty">&nbsp;</div>
+                <div class="col services-frontend" data-600="-webkit-transform: translateY(50px); opacity:0;"
+                    data-800="-webkit-transform: translateY(0px); opacity:1;">
+                    <span class="icon-computer"></span>
+                    <ul>
+                        <li>Frontend Development</li>
+                        <li>HTML5 / CSS3</li>
+                        <li><strong>React / Vue</strong> / Webpack</li>
+                        <li>Responsive Design</li>
+                        <li>Git / SVN</li>
+                        <li><strong>Flutter</strong></li>
+                    </ul>
                 </div>
-            </section>
-
-            <section id="services" class="row">
-                <div class="services-content page">
-                    <div class="col services-design"
-                        data-600="-webkit-transform: translateY(10px); opacity:0;"
-                        data-800="-webkit-transform: translateY(0px); opacity:1;"
-                    >
-                        <span class="icon-design"></span>
-                        <ul>
-                            <li>Masterd Skills</li>
-                            <li>iOS Applicaiton Dev</li>
-                            <li>Python Web Dev</li>
-                            <li>Nginx / Node</li>
-                            <li>Prototyping</li>
-                            <li>Wireframing</li>
-                        </ul>
-                    </div>
-                    <div class="col services-frontend"
-                        data-600="-webkit-transform: translateY(50px); opacity:0;"
-                        data-800="-webkit-transform: translateY(0px); opacity:1;"
-                    >
-                        <span class="icon-computer"></span>
-                        <ul>
-                            <li>Frontend Development</li>
-                            <li>HTML5 / CSS3</li>
-                            <li>jQuery & JavaScript libraries</li>
-                            <li>Responsive Design</li>
-                            <li>Git / SVN</li>
-                        </ul>
-                    </div>
-                    <div class="col services-team"
-                        data-600="-webkit-transform: translateY(100px); opacity:0;"
-                        data-800="-webkit-transform: translateY(0px); opacity:1;"
-                    >
-                        <span class="icon-music"></span>
-                        <ul>
-                            <li>Team Building</li>
-                            <li>Smiling</li>
-                            <li>Communication</li>
-                            <li>Team working</li>
-                            <li>Sharing my music</li>
-                            <li>...and more!</li>
-                        </ul>
-                    </div>
+                <div class="col services-team" data-600="-webkit-transform: translateY(100px); opacity:0;"
+                    data-800="-webkit-transform: translateY(0px); opacity:1;">
+                    <span class="icon-music"></span>
+                    <ul>
+                        <li>Team Building</li>
+                        <li><strong>Code Review<</strong>/li>
+                        <li>Communication</li>
+                        <li>Team working</li>
+                        <li><strong>Sharing</strong></li>
+                        <li>...and more!</li>
+                    </ul>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <hr>
+        <hr>
 
-            <section id="work" class="row">
-                <div class="work-content page">
-                    <div class="col work-title">
-                        <h3
-                            data-900="-webkit-transform: translateX(-100px); opacity:0;"
-                            data-1300="-webkit-transform: translateX(0px); opacity:1;"
-                        >My latest work</h3>
-                    </div>
-                    <div class="col empty">&nbsp;</div>
-                    <div class="col work-description">
-                        <p
-                            data-900="opacity:0;"
-                            data-1300="opacity:1;"
-                        >A selection of recent projects I've been working on: landing pages, websites, email signing in...</p>
-                    </div>
-                    <div class="col empty">&nbsp;</div>
+        <section id="work" class="row">
+            <div class="work-content page">
+                <div class="col work-title">
+                    <h3 data-900="-webkit-transform: translateX(-100px); opacity:0;"
+                        data-1300="-webkit-transform: translateX(0px); opacity:1;"><a target="_blank" href="//hongwing.github.io/dev">My latest work</a> </h3>
                 </div>
-                <div class="work-examples page">
-                    <div class="col work-item"
-                        data-1300="opacity:0;"
-                        data-1400="opacity:1;"
-                    >
-                        <img src="img/works/1.jpg" alt="">
-                        <div class="work-item-inside">
-                            <div class="work-item-inside-content">
-                                <h4>NSTimer</h4>
-                                <a href="https://github.com/Hongwing/iOS-DevWithNSTimer" class="but">Click here</a>
-                            </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col work-description">
+                    <p data-900="opacity:0;" data-1300="opacity:1;">A selection of recent projects I've been working on:
+                        <br><i><strong>Static-site, Blog, React, CSS Magic ...</strong></i></p>
+                </div>
+                <div class="col empty">&nbsp;</div>
+            </div>
+            <div class="work-examples page">
+                <div class="col work-item" data-1300="opacity:0;" data-1400="opacity:1;">
+                    <img src="img/header-3.jpg" alt="">
+                    <div class="work-item-inside">
+                        <div class="work-item-inside-content">
+                            <h4>Doc - My Blog</h4>
+                            <a href="http://doc.henryhe.cn" target="_blank" class="but">Click here</a>
                         </div>
                     </div>
-                    <div class="col work-item"
-                        data-1300="opacity:0;"
-                        data-1400="opacity:1;"
-                    >
-                        <img src="img/works/2.jpg" alt="">
-                        <div class="work-item-inside">
-                            <div class="work-item-inside-content">
-                                <h4>Blog</h4>
-                                <a href="https://github.com/Hongwing/Hongwing" class="but">Click here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col work-item"
-                        data-1300="opacity:0;"
-                        data-1600="opacity:1;"
-                    >
-                        <img src="img/works/3.jpg" alt="">
-                        <div class="work-item-inside">
-                            <div class="work-item-inside-content">
-                                <h4>GA</h4>
-                                <a href="https://github.com/Hongwing/home" class="but">Click here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col work-item"
-                        data-1300="opacity:0;"
-                        data-1400="opacity:1;"
-                    >
-                        <img src="img/works/4.jpg" alt="">
-                        <div class="work-item-inside">
-                            <div class="work-item-inside-content">
-                               <h4>2048</h4>
-                               <a href="https://github.com/Hongwing/TZFE2048" class="but">Click here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col work-item"
-                        data-1300="opacity:0;"
-                        data-1500="opacity:1;"
-                    >
-                        <img src="img/works/5.jpg" alt="">
-                        <div class="work-item-inside">
-                            <div class="work-item-inside-content">
-                                <h4>iNote</h4>
-                                <a href="https://github.com/Hongwing/iNote" class="but">Click here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col work-item"
-                        data-1300="opacity:0;"
-                        data-1600="opacity:1;"
-                    >
-                        <img src="img/works/6.jpg" alt="">
-                        <div class="work-item-inside">
-                            <div class="work-item-inside-content">
-                                <h4>Code Mirror</h4>
-                                <a href="https://github.com/Hongwing/TextCircle-codemirror" class="but">Click here</a>
-                            </div>
-                        </div>
-                    </div>                    
                 </div>
-            </section>
-
-            <hr>
-
-            <section id="contact" class="row">
-                <div class="contact-content page">
-                    <div class="col contact-title">
-                        <h3
-                            data-100="-webkit-transform: translateX(100px); opacity:0;"
-                            data-500="-webkit-transform: translateX(0px); opacity:1;"
-                        >Get in touch</h3>
-                    </div>
-                    <div class="col empty">&nbsp;</div>
-                    <div class="col contact-description">
-                        <a href="#" class="but">mracarat@gmail.com</a>
-                    </div>
-                    <div class="col empty">&nbsp;</div>
-                    <div class="col span_12 social">
-                        <a class="icon-twitter" href="#" target="_blank"></a>
-                        <a class="icon-github" href="https://github.com/Hongwing" target="_blank"></a>
-                        <a class="icon-instagram" href="#" target="_blank"></a>
-                        <a class="icon-linkedin" href="#" target="_blank"></a>
+                <div class="col work-item" data-1300="opacity:0;" data-1400="opacity:1;">
+                    <img src="img/header-2.jpg" alt="">
+                    <div class="work-item-inside">
+                        <div class="work-item-inside-content">
+                            <h4>Baby Rudux</h4>
+                            <a href="http://github.com/Hongwing/Baby-Redux" target="_blank" class="but">Click here</a>
+                        </div>
                     </div>
                 </div>
-            </section>
-
-            <footer id="footer" class="row">
-                <div class="footer-content page">
-                    <div class="col f1">
-                        <p>© 2017 By Henry HE.</p>
+                <div class="col work-item" data-1300="opacity:0;" data-1600="opacity:1;">
+                    <img src="img/works/5.jpg" alt="">
+                    <div class="work-item-inside">
+                        <div class="work-item-inside-content">
+                            <h4>Front End Study</h4>
+                            <a href="http://hongwing.github.io/FrontEndStudy" target="_blank" class="but">Click here</a>
+                        </div>
                     </div>
                 </div>
-            </footer>
+                <!-- <div class="col work-item" data-1300="opacity:0;" data-1400="opacity:1;">
+                    <img src="img/works/4.jpg" alt="">
+                    <div class="work-item-inside">
+                        <div class="work-item-inside-content">
+                            <h4>2048</h4>
+                            <a href="https://github.com/Hongwing/TZFE2048" target="_blank" class="but">Click here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-item" data-1300="opacity:0;" data-1500="opacity:1;">
+                    <img src="img/works/5.jpg" alt="">
+                    <div class="work-item-inside">
+                        <div class="work-item-inside-content">
+                            <h4>iNote</h4>
+                            <a href="https://github.com/Hongwing/iNote" target="_blank" class="but">Click here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col work-item" data-1300="opacity:0;" data-1600="opacity:1;">
+                    <img src="img/works/6.jpg" alt="">
+                    <div class="work-item-inside">
+                        <div class="work-item-inside-content">
+                            <h4>Code Mirror</h4>
+                            <a href="https://github.com/Hongwing/TextCircle-codemirror" target="_blank" class="but">Click here</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
 
-        </div>
-
-        <div class="loader"></div>
         
-        <!-- JavaScript -->
-        <script src="js/jquery-1.11.0.min.js"></script>
-        <script src="js/modernizr-2.6.2.min.js"></script>
-        <script src="js/skrollr.js"></script>
-        <script src="js/main.js"></script>
-        <script type="js/me.js"></script>
+        <hr>
 
-    </body>
+        <section id="contact" class="row">
+            <div class="contact-content page">
+                <div class="col contact-title">
+                    <h3 data-100="-webkit-transform: translateX(100px); opacity:0;"
+                        data-500="-webkit-transform: translateX(0px); opacity:1;">Get in touch</h3>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col contact-description">
+                    <a href="#" class="but">mracarat@gmail.com</a>
+                </div>
+                <div class="col empty">&nbsp;</div>
+                <div class="col span_12 social">
+                    <a class="icon-wechat" href="img/wechat/qrcode.jpg" target="_blank"></a>
+                    <a class="icon-github" href="//github.com/Hongwing" target="_blank"></a>
+                    <a class="icon-jj" href="//juejin.im/user/5bf759cde51d4569cd2f8413" target="_blank"></a>
+                    <a class="icon-yuque" href="//yuque.com/henryhe" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="row">
+            <div class="footer-content page">
+                <div class="col f1">
+                    <p>© 2019 By Henry HE.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div class="loader"></div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script src="js/main.js"></script>
+    <script type="js/me.js"></script>
+
+</body>
 
 </html>
