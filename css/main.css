@@ -411,13 +411,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 #home {
     background-color: rgba(0,0,0, .5);
-    background-image: url(../img/header-bggg.jpg);
+    background-image: url(../img/Wizard/header-2.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     text-align: center;
+    transition: all ease 2s;
 }
 
 .overlay {

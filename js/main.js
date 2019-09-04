@@ -5,11 +5,12 @@ jQuery(document).ready(function($) {
 	// var windowWidth = $(window).width();
 
 	// home image
-	var imgID = Math.floor(Math.random()*8+1); // 1~8 random number
+	var imgID = Math.floor(Math.random()*7+1); // 1~7 random number
 	var imgStr = 'header-'+imgID+'.png';
-	$("#home").css("background-image", 'url(../img/Wizard/'+imgStr);
-	// home image
-
+	// $("#home").css("background-image", 'url(../img/Wizard/'+imgStr);
+	setTimeout(() => {
+		$("#home").css("background-image", 'url(http://dev.henryhe.cn/img/Wizard/' + imgStr);
+	}, 2200);
 
 	// Nav
 	$('a[href*=#]:not([href=#])').click(function() {
