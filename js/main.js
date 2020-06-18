@@ -6,12 +6,12 @@ jQuery(document).ready(function($) {
 
 	// home image
 	var imgID = Math.floor(Math.random()*7+1); // 1~7 random number
-	var imgStr = 'header-'+imgID+'.png';
+	var imgStr = 'http://qiniu.henryhe.cn/picture/header-' + imgID + '.jpg)';
 	// $("#home").css("background-image", 'url(../img/Wizard/'+imgStr');
 	setTimeout(() => {
-		$("#home").css("background-image", 'url(../img/Wizard/'+imgStr)
+		$("#home").css("background-image", 'url('+imgStr)
 		// $("#home").css("background-image", 'url(http://dev.henryhe.cn/img/Wizard/' + imgStr);
-	}, 2200);
+	}, 0);
 
 	// Nav
 	$('a[href*=#]:not([href=#])').click(function() {
