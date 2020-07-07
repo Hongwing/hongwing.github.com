@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 
 	// home image
 	var imgID = Math.floor(Math.random()*7+1); // 1~7 random number
-	var imgStr = 'http://qiniu.henryhe.cn/picture/header-' + imgID + '.jpg)';
+	var imgStr = 'http://qiniu.henryhe.cn/picture/header-' + imgID + '.png)';
 	// $("#home").css("background-image", 'url(../img/Wizard/'+imgStr');
 	setTimeout(() => {
 		$("#home").css("background-image", 'url('+imgStr)
