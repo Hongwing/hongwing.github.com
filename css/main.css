@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #home {
     background-color: rgba(0,0,0, .5);
-    background-image: url(http://qiniu.henryhe.cn/picture/header-2.png);
+    background-image: url(http://qiniu.henryhe.cn/picture/header-2.png-step_load);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
